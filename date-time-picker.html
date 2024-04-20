@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Material Icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Font awesome-->
+     <script src="https://kit.fontawesome.com/d01753a538.js" crossorigin="anonymous"></script>
+     <!--Font awesome cdnjs -->
+    <link rel="stylesheet"
+    <!--Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    <!-- Custom CSS-->
+ <link rel="stylesheet" href="style.css">
+    <title>Date and Time Picker</title>
+</head>
+<body class="grey darken-3">
+    <h1 class="center purple-text">Picker</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <h3 class="purple-text text-lighten-2">Date Picker</h3>
+        <p class="grey-text lighten-2">The datepicker allows users to select a date from an interactive calendar.</p>
+    <div class="row">
+        <div class="col s12 m6 14">
+            <form action="">
+                <div class="input-field">
+                    <input type="text" class="datepicker">
+                    <label for="date">Birthdate</label>
+                </div>
+            </form>
+        </div>
+     <div class="col s12 m6 18">
+        <form action="">
+         <div class="input-field">
+             <input type="text" class="timepicker">
+             <label for="time">Party Time</label>
+         </div>
+        </form>
+         <div>
+         </div> 
+    </div>
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        //date picker
+        $('.datepicker').datepicker();
+        //time picker
+        $('.timepicker').timepicker();
+    });
+</script>
+
+</body>
+</html>
